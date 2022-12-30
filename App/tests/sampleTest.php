@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Kata\Tests;
+namespace App\Tests;
 
-use Kata\Solution;
+use App\Solution;
 use PHPUnit\Framework\TestCase;
 
 class SampleTest extends TestCase

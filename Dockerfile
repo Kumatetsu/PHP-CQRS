@@ -11,11 +11,11 @@ RUN composer install \
     --no-scripts \
     --prefer-dist
 
-FROM php:8.1.4 as core
+FROM php:8.2.0 as core
 LABEL org.opencontainers.image.authors="Jean Billaud <billaudjean@gmail.com>"
 
-WORKDIR /src/kata
+WORKDIR /src/App
 
-COPY . /src/kata
-COPY --from=vendor /tmp/vendor/ /src/kata/vendor/
+COPY . /src/App
+COPY --from=vendor /tmp/vendor/ /src/App/vendor/
 

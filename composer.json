@@ -2,9 +2,9 @@
     "name": "jeanbillaud/php",
     "autoload": {
         "psr-4": {
-            "Kata\\": "kata/src",
-            "Kata\\Tests\\": "kata/tests",
-            "Kata\\Behat\\": "kata/behat"
+            "App\\": "App/src",
+            "App\\Tests\\": "App/tests",
+            "App\\Behat\\": "App/behat"
         }
     },
     "authors": [
